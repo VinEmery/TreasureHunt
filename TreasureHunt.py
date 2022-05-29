@@ -23,7 +23,6 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-
 first_move = input('You are at a crossroad.  Where do you want to go? Type "left" or "right".\n').lower()
 
 #first move choice
@@ -47,7 +46,6 @@ if first_move == "left":
 
   else:
     print("You got slapped by an angry bass and drown.  Game Over!")
-
 
 else:
   print ("You fall into a hole. Game over!")
