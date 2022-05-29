@@ -24,14 +24,14 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
 
-first_move = input('You/re at a crossroad.  Where do you want to go? Type "left" or "right".\n').lower()
+first_move = input('You are at a crossroad.  Where do you want to go? Type "left" or "right".\n').lower()
 
 #first move choice
 if first_move == "left":
-  second_move = input('You/ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
+  second_move = input('You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
 
   if second_move == "wait":
-    third_move = input("You arrive at the island unharmed. There is a house with 3 doors.  One      red, one yellow and one blue. Which color do you choose?\n").lower()
+    third_move = input("You arrive at the island unharmed. There is a house with 3 doors.  One red, one yellow and one blue. Which color do you choose?\n").lower()
 
     if third_move == "red":
       print("You found the hidden treasure!  You win!!")
